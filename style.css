@@ -4,13 +4,36 @@ DIV {
 #Header {
 	Height: 100px;
 	width: 800px;
-margin-right: auto;
-margin-left: auto;
-background: url(image/banner.png) no-repeat;
-color: red;
+	margin-right: auto;
+	margin-left: auto;
+	background: url(image/banner.png) no-repeat;
+	color: red;
 }
 
 #MainContent {
 	width: 800px;
-	Margin-right: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#Footer {
+	 width: 802px;
+	 margin-right: auto;
+	 margin-left: auto; 
+	 height: 50px;
+	 border: 1px solid #fff;
+}
+
+#Footerleft {
+	float:left;
+	width:399px; /*49.5%*/
+	height:50px;
+	border: 1px solid green; 
+}
+
+#FooterRight {
+	float:right;
+	width:399px; /*49.5%*/
+	height:50px;
+	border: 1px solid red;
 }
