@@ -37,3 +37,34 @@ DIV {
 	height:50px;
 	border: 1px solid red;
 }
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box:
+	font-family: montserrat, sans-serif;
+}
+
+.button-container{
+	display: flex;
+	width: 100%;
+	min-height: 100vh;
+	justify-content: center;
+	align-content: center;
+}
+
+.button {
+	appearance: none;
+	background: none;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	
+	padding: 20px 40px;
+	border-radius: 8px;
+	color: #212121
+	font-size: 20px;
+	font-weight: 600;
+	margin: 01 15px;
+	transition: 0.4s;
+}
