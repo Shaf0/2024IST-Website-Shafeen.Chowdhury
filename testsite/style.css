@@ -48,7 +48,6 @@ DIV {
 .button-container {
 	display: flex;
 	width: 100%;
-	min-height: 100vh;
 	justify-content: center;
 	align-content: center;
 }
@@ -67,6 +66,7 @@ DIV {
 	font-weight: 600;
 	margin: 01 15px;
 	transition: 0.4s;
+	height: 75px;
 }
 
 .button-1 {
